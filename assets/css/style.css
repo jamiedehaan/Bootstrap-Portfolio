@@ -214,6 +214,15 @@ input[type=submit] {
   padding: 10px 30px;
 }
 
+input[type=reset] {
+  background: #4aaaa5;
+  border: 0 none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 10px 30px;
+}
+
 input[type=text],
 input[type=email],
 textarea {

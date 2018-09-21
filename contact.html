@@ -64,7 +64,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <form id="contact-form">
+                        <form action="mailto:jamie.price@comcast.net" method="post" enctype="text/plain" id="contact-form">
                             <ul>
                                 <li>
                                     <label for="name">Name</label>
@@ -72,14 +72,15 @@
                                 </li>
                                 <li>
                                     <label for="email">Email</label>
-                                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                                    <input type="text" id="email" name="email" placeholder="example@gmail.com" required="required">
                                 </li>
                                 <li>
                                     <label for="message">Message</label>
                                     <textarea id="message" name="message" required="required"></textarea>
                                 </li>
                             </ul>
-                            <input type="submit">
+                            <input type="submit" value="Send">
+                            <input type="reset" value="Reset">
                         </form>
                     </div>
                 </div>

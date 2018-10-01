@@ -210,7 +210,9 @@ input[type=submit] {
   border: 0 none;
   color: #fff;
   cursor: pointer;
+  float: right;
   font-size: 18px;
+  margin-left: 10px;
   padding: 10px 30px;
 }
 
@@ -219,6 +221,7 @@ input[type=reset] {
   border: 0 none;
   color: #fff;
   cursor: pointer;
+  float: right;
   font-size: 18px;
   padding: 10px 30px;
 }
